@@ -1,0 +1,33 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Helm
+*.tgz
+charts/
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+secrets.yaml
+*.secret.yaml
