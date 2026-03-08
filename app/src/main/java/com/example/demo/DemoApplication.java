@@ -20,7 +20,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Java Application Running Successfully || Updated Version";
+        return "Java Application Running Successfully || Updated Version : 1.0.2";
     }
 
     @GetMapping("/version")
