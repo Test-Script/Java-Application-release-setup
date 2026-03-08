@@ -23,5 +23,9 @@ spec:
 
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
 
+        env:
+        - name: APP_VERSION
+          value: "{{ .Values.image.tag }}"
+
         ports:
         - containerPort: {{ .Values.containerPort }}
